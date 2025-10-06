@@ -17,7 +17,7 @@ By the 3 hour mark of the implementation I have completed:
 
 After those 3 hours I havent even gotten to the interesting part with the PC defining the blink rate of an LED, so I just decided to work on it for fun and to wrap my head around the things I got stuck on and try complete more of the assignment.
 
-I have completed the design and the code part, up to task 3. I started to think how I could realise the code for the 4th task, with a separate thread listening to the transfers and printing the notification to the console every time the debounced button is pressed, but I think I took long enough already, and I am not to comfortable with asynchronous Rust (or interrupts in embedded Rust, for that matter. That's why I decided to use `nb` crate after seeing that the HAL I am using also makes use of it).
+I have completed the design and the code part, up to task 3. I started to think how I could realise the code for the 4th task, with a separate thread listening to the transfers and printing the notification to the console every time the debounced button is pressed, but I think I took long enough already, and I am not yet comfortable with multithreaded Rust (or interrupts in embedded Rust, for that matter. That's why I decided to use `nb` crate after seeing that the HAL I am using also makes use of it).
 
 ## Protocol
 
