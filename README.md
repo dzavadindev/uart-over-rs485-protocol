@@ -13,7 +13,7 @@ TOTAL: 11 Hours over 3 days.
 By the 3 hour mark of the implementation I have completed:
 
 - single byte bi-directional transfers over UART 
-- the design completed (without a consideration for RS-485 yet, rewritten to the current version later).
+- the design  (without a consideration for RS-485 yet, rewritten to the current version later).
 
 After those 3 hours I havent even gotten to the interesting part with the PC defining the blink rate of an LED, so I just decided to work on it for fun and to wrap my head around the things I got stuck on and try complete more of the assignment.
 
