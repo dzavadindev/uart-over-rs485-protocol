@@ -1,0 +1,12 @@
+[package]
+name = "stm32-f3-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"]}
+cortex-m-rt = { version = "0.7.3", features = ["device"] }
+panic-halt = "0.2.0"
+rtt-target = "0.5.0"
+stm32f3xx-hal = {version = "0.10.0", features = ["ld", "rt", "stm32f303xe"] }
+nb = {version = "1.1.0"}
