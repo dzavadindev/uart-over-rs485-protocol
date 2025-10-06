@@ -5,7 +5,9 @@ This project is an implementation of a custom communication protocol on top of U
 ## Time taken
 
 Research: \~3 Hours
+
 Implementation: \~8 Hours
+
 TOTAL: 11 Hours over 3 days.
 
 By the 3 hour mark of the implementation I have completed:
